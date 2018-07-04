@@ -1,0 +1,265 @@
+Script started on Thu 02 Mar 2017 07:04:36 AM PST
+
+bash-4.2$ java Adventure world.txt 2
+
+Hello, Test Subject 525. I am Charlie, your personal helper bot.
+I suggest you pick up the cryonic files in the room and inspect them before proceeding.
+You may drop them afterwards if you wish.
+
+You can traverse the ship by typing north, south, east, or west.
+You can see what is in the room you are in by typing 'look'.
+You can pick things up by typing 'pickup thing' where thing is what you see in the room.
+You can drop things you are carrying by typing 'drop thing' where thing names something you have.
+You can see your status by typing status and quit by typing quit.
+
+You can also inspect things you are carrying by typing 'inspect thing' where thing names
+something you have.
+Inspected things may possess different functions, so inspect them thoroughly.
+If you use things in your bag when you're not supposed to, I'll inform you.
+If you continually try to use things when you're not supposed to...
+you can see for yourself what'll happen.
+
+OBJECTIVE: My sensors have detected a dangerous invader among us...quietly lurking around the ship.
+Search the ship for weapons to arm yourself with, and find a transmitter to contact home base.
+I suggest you act quickly before this creature finds you first, 525.
+
+You have awoken the Cryostasis Containment Chamber.
+-You see:
+cryonics files
+
+pickup cryonics files
+
+-You have picked up the cryonics files
+inspect cryonics files
+
+-EMERGENCY LOG AND GENERAL INFORMATION:
+You are Test Subject 525. You were sent deep into untraversed space as part of a secret space
+expedition planned by us, NASA. The fact that you are reading this at all means that
+you have awoken from your cryostasis early, which also means that something has gone horribly
+wrong. We won't have any idea what the issue is by the time you're reading this, but take care,
+arm yourself, and don't be surprised if you see any oddities aboard the ship.
+
+Charlie Bot: This doesn't look good, 525. We best make haste and investigate the ship.
+
+drop cryonics files
+
+-Charlie Bot: You have dropped the cryonics files
+north
+
+-Charlie Bot: You have entered the Cabin 
+look
+-You see:
+pillow
+blankets
+
+pickup pillow
+
+-You have picked up the pillow
+inspect pillow
+
+-Charlie Bot: This is a pillow, 525.
+It's soft and fluffy, but has no other special qualitities those two traits.
+
+The best you could do with this pillow in combat is 'whack' things with it.
+pickup blankets
+
+-You have picked up the blankets
+inspect blankets
+
+-Charlie Bot: These are blankets, 525.
+They're rather soft and warm, and when complimented with a comfy pillow, quickly lull
+people to sleep.
+
+You could 'snuggle' the blankets, but that's about it.
+snuggle blankets
+
+-Charlie Bot: I realize those blankets are warm, but we should really keep moving, 525.
+drop blankets
+
+-Charlie Bot: You have dropped the blankets
+west
+
+-Charlie Bot: You have entered the Mess Hall
+look
+-You see:
+bananas
+
+pickup bananas
+
+-You have picked up the bananas
+inspect bananas
+
+-Charlie Bot: These are bananas, 525. They're fruits.
+There's nothing really special about them.
+
+You could 'toss' these bananas, and maybe 'eat' them, but that's about it.
+eat bananas
+
+-Charlie Bot: Yeah...I don't think this is the time to be eating bananas, 525.
+toss bananas
+
+-Charlie Bot: I'd rather you not toss these bananas at me, 525.
+toss bananas
+
+-Charlie Bot: Stop that before I start calling you 'Monkey' instead.
+toss bananas
+
+-Charlie Bot: You monkey.
+north
+
+-Charlie Bot: You have entered the Cryostasis Containment Chamber
+west
+
+-Charlie Bot: You have entered the Armory
+look
+-You see:
+space gun
+lightsaber
+
+pickup space gun
+
+-You have picked up the space gun
+pickup lightsaber
+
+-You have picked up the lightsaber
+inspect space gun
+
+-Charlie Bot: This is a space gun, 525. It feels like something out of a sci-fi movie.
+Fueled by some sort of alien technology, it utilizes pure energy rather than ammunition.
+It's capable of doing serious damage to whatever is at the other end of it, and has no recoil.
+
+You can shoot the space gun by typing: 'shoot space gun'.
+inspect lightsaber
+
+-Charlie Bot: This is a lightsaber, 525. It gives off an aura of familarity.
+It is a plasma blade that requires a kyber crystal to power its saber from a metal hilt.
+It has the power to cut through virtually anything it touches.
+
+You can slash with the lightsaber by typing: 'slash'.
+west
+
+-Charlie Bot: You have entered the Control Room
+look
+
+-You hear the sound of typing echoing throughout room...
+Charlie Bot: Oh my word is that...is that ME? It seems that the mysterious intruder was
+simply a robotic copy of myself. On the other hand, I see the transmitter, 525!
+However, it appears that it has fallen into the intruder's clutches.
+More specifically, it seems to be in his back pocket.
+Great. He looks like an ordinary human, but I would brace yourself for battle, 525.
+
+He hasn't noticed you...arm yourself and attempt to take the transmitter from him.
+
+-You see:
+Charlie McDowell
+transmitter
+
+pickup transmitter
+
+-Charlie Bot: The transmitter is currently in McDowell's possession. You can't safely
+retrieve it without him noticing, 525. You'll have to use something to take it from him
+by force.
+pickup Charlie McDowell
+
+-Charlie Bot: You can't just shove the professor into your bag and call it a day, 525.
+Nice try though.
+north
+
+-Charlie Bot: You have entered the Cabin 
+south
+
+-Charlie Bot: You have entered the Research Lab
+look
+-You see:
+coding transcripts
+
+pickup coding transcripts
+
+-You have picked up the coding transcripts
+inspect coding transcripts
+
+-Charlie Bot: These are coding transcripts, 525.
+They're very, very poorly written, and would make any programmer feel extremely agitated.
+
+Maybe they'll have some 'use' for you later on. Use them by typing: 'use coding transcripts'.
+north
+
+-Charlie Bot: You have entered the Armory
+west
+
+-Charlie Bot: You have entered the Control Room
+status
+pillow
+bananas
+space gun
+lightsaber
+coding transcripts
+Available capacity = 0
+toss bananas
+
+-McDowell catches the bananas you toss!
+He flings them back at your head as a warning.
+Charlie Bot: I really don't think bananas are an effective weapon, 525...
+
+whack
+
+-You start whacking McDowell with the pillow.
+He completely ignores you, and continues to code on his laptop.
+
+Charlie Bot: The pillow is NOT the ideal weapon in this case.
+use coding transcripts
+
+-You shove the horribly written coding transcripts into McDowell's face!
+He makes a disgusted face, and begins to short circuit due to agitation from looking at
+the transcripts. He starts to verbally recite random bits and pieces of code like a
+robotic rapper rapping in code.
+
+The robotic Charlie McDowell explodes into pieces!
+-the transmitter slides across the floor-
+
+Charlie Bot: You did it 525! Now hurry, grab the transmitter and use it by typing in
+'use transmitter'.
+-You see:
+transmitter
+
+pickup transmitter
+
+-Your bag is full, 525. You need to drop something else first.
+drop bananas
+
+-Charlie Bot: You have dropped the bananas
+pickup transmitter
+
+-You have picked up the transmitter
+inspect transmitter
+
+-Charlie Bot: This is the transmitter, 525!
+Use the transmitter by typing 'use transmitter'. Now what are you waiting for? Use it!
+use transmitter
+
+-You attempt to use the transmitter, but it doesn't work.
+
+Charlie Bot: Did you really think that you waking up from your cryostasis was by chance?
+You humor me, Test Subject 525. There's a reason why that robot was a replica of myself.
+I am the mastermind that sent you deep into space.
+
+...Deep into space to perish.
+
+Haha. What's with the surprised look, 525? I forged those cryonic files. I lied to you.
+Do you understand now? There was never a way to contact home base. You're DOOMED.
+
+Upon closer inspection, you see that the transmitter is dyfunctional...but might explode
+if you throw it at something hard enough..
+
+-NEW OBJECTIVE: Destroy Charlie Bot by throwing the transmitter at him. You can throw the
+transmitter at him by typing: 'throw transmitter' or 'throw transmitter at Charlie Bot'.
+Make sure you have the transmitter in your bag.
+throw transmitter
+
+-You threw the transmitter at Charlie Bot and destroyed him! Congratulations!
+YOU WIN!...Or do you? You're stuck on a ship in deep space after all...
+To be continued. Thanks for playing!
+bash-4.2$ exit
+exit
+
+Script done on Thu 02 Mar 2017 07:09:27 AM PST

@@ -1,0 +1,23 @@
+import java.awt.event.*;
+import javax.swing.*;
+class NorthListener implements ActionListener{
+  private Adventure theGame;
+  private JTextArea output;
+  NorthListener(Adventure theGame, JTextArea output){
+    this.theGame = theGame;
+    this.output = output;
+  }
+  public void actionPerformed(ActionEvent e){
+    String response = "";
+    if(e.getActionCommand().equals("North")){
+      response = theGame.enter(theGame.player, theGame.player.getLocation().north());
+    } else if(e.getActionCommand().equals("South")){
+      response = theGame.enter(theGame.player, theGame.player.getLocation().south());
+    } else if(e.getActionCommand().equals("West")){
+      response = theGame.enter(theGame.player, theGame.player.getLocation().west());
+    } else if(e.getActionCommand().equals("East")){
+      response = theGame.enter(theGame.player, theGame.player.getLocation().east());
+    }
+    output.setText(response);
+  }
+}

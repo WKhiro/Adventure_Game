@@ -1,0 +1,52 @@
+the Cryostasis Containment Chamber
+cryonics files
+  
+the Armory
+space gun
+lightsaber
+  
+the Research Lab
+coding transcripts
+ 
+the Control Room
+Charlie McDowell
+transmitter
+
+the Cabin 
+pillow
+blankets
+  
+the Mess Hall
+bananas
+   
+*****
+the Cryostasis Containment Chamber
+the Armory
+the Mess Hall
+the Research Lab
+the Control Room
+
+the Armory
+the Cryostasis Containment Chamber
+the Mess Hall
+the Research Lab
+the Control Room
+
+the Mess Hall
+the Armory
+the Cryostasis Containment Chamber
+the Research Lab
+the Control Room
+
+the Research Lab
+the Armory
+the Mess Hall
+blocked
+the Control Room
+
+the Control Room
+the Armory
+the Mess Hall
+the Research Lab
+blocked
+blocked

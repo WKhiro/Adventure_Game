@@ -1,0 +1,125 @@
+Script started on Thu 02 Mar 2017 07:16:19 AM PST
+
+bash-4.2$ java Adventure world.txt 2
+
+Hello, Test Subject 525. I am Charlie, your personal helper bot.
+I suggest you pick up the cryonic files in the room and inspect them before proceeding.
+You may drop them afterwards if you wish.
+
+You can traverse the ship by typing north, south, east, or west.
+You can see what is in the room you are in by typing 'look'.
+You can pick things up by typing 'pickup thing' where thing is what you see in the room.
+You can drop things you are carrying by typing 'drop thing' where thing names something you have.
+You can see your status by typing status and quit by typing quit.
+
+You can also inspect things you are carrying by typing 'inspect thing' where thing names
+something you have.
+Inspected things may possess different functions, so inspect them thoroughly.
+If you use things in your bag when you're not supposed to, I'll inform you.
+If you continually try to use things when you're not supposed to...
+you can see for yourself what'll happen.
+
+OBJECTIVE: My sensors have detected a dangerous invader among us...quietly lurking around the ship.
+Search the ship for weapons to arm yourself with, and find a transmitter to contact home base.
+I suggest you act quickly before this creature finds you first, 525.
+
+You have awoken the Cryostasis Containment Chamber.
+-You see:
+cryonics files
+
+north
+
+-Charlie Bot: You have entered the Cabin 
+west
+
+-Charlie Bot: You have entered the Mess Hall
+north
+
+-Charlie Bot: You have entered the Cryostasis Containment Chamber
+west
+
+-Charlie Bot: You have entered the Armory
+north
+
+-Charlie Bot: You have entered the Control Room
+south
+
+-Charlie Bot: You have entered the Research Lab
+look
+-You see:
+coding transcripts
+
+pickup coding transcripts
+
+-You have picked up the coding transcripts
+north
+
+-Charlie Bot: You have entered the Armory
+west
+
+-Charlie Bot: You have entered the Control Room
+look
+
+-You hear the sound of typing echoing throughout room...
+Charlie Bot: Oh my word is that...is that ME? It seems that the mysterious intruder was
+simply a robotic copy of myself. On the other hand, I see the transmitter, 525!
+However, it appears that it has fallen into the intruder's clutches.
+More specifically, it seems to be in his back pocket.
+Great. He looks like an ordinary human, but I would brace yourself for battle, 525.
+
+He hasn't noticed you...arm yourself and attempt to take the transmitter from him.
+
+-You see:
+Charlie McDowell
+transmitter
+
+use coding transcripts
+
+-You shove the horribly written coding transcripts into McDowell's face!
+He makes a disgusted face, and begins to short circuit due to agitation from looking at
+the transcripts. He starts to verbally recite random bits and pieces of code like a
+robotic rapper rapping in code.
+
+The robotic Charlie McDowell explodes into pieces!
+-the transmitter slides across the floor-
+
+Charlie Bot: You did it 525! Now hurry, grab the transmitter and use it by typing in
+'use transmitter'.
+-You see:
+transmitter
+
+pickup transmitter
+
+-You have picked up the transmitter
+inspect transmitter
+
+-Charlie Bot: This is the transmitter, 525!
+Use the transmitter by typing 'use transmitter'. Now what are you waiting for? Use it!
+use transmitter
+
+-You attempt to use the transmitter, but it doesn't work.
+
+Charlie Bot: Did you really think that you waking up from your cryostasis was by chance?
+You humor me, Test Subject 525. There's a reason why that robot was a replica of myself.
+I am the mastermind that sent you deep into space.
+
+...Deep into space to perish.
+
+Haha. What's with the surprised look, 525? I forged those cryonic files. I lied to you.
+Do you understand now? There was never a way to contact home base. You're DOOMED.
+
+Upon closer inspection, you see that the transmitter is dyfunctional...but might explode
+if you throw it at something hard enough..
+
+-NEW OBJECTIVE: Destroy Charlie Bot by throwing the transmitter at him. You can throw the
+transmitter at him by typing: 'throw transmitter' or 'throw transmitter at Charlie Bot'.
+Make sure you have the transmitter in your bag.
+throw transmitter
+
+-You threw the transmitter at Charlie Bot and destroyed him! Congratulations!
+YOU WIN!...Or do you? You're stuck on a ship in deep space after all...
+To be continued. Thanks for playing!
+bash-4.2$ exit
+exit
+
+Script done on Thu 02 Mar 2017 07:17:24 AM PST
