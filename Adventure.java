@@ -5,7 +5,7 @@ import javax.swing.*;
 import java.awt.Font;
 
 /**
- * Program #4 Adventure Game GUI
+ * Adventure Game
  * A space adventure game where a player moves from room to room interacting with things in the rooms.
  * The initial world is created from a text file named world.txt or an alternative input file can be specified
  * on the command line. See the specification for the format of the input text file.
